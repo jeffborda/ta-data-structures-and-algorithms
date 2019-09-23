@@ -9,7 +9,7 @@ public class LinkedListTest {
     @Test
     public void constructorTestEmptyList() {
         LinkedList testList = new LinkedList();
-        assertEquals("Before inserting anything, head should point to 'null'.",null, testList.getHead());
+        assertNull("Before inserting anything, head should point to 'null'.", testList.getHead());
     }
 
     @Test
